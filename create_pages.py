@@ -300,17 +300,21 @@ base_template = '''<!DOCTYPE html>
   </div>
 
   <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/61451612742?text=Hello!%20I%20would%20like%20to%20request%20a%20quote%20for%20asbestos%20removal/demolition" 
-     class="fixed bottom-20 lg:bottom-6 right-6 bg-brand-green text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-30 animate-bounce-slow"
-     aria-label="Contact us on WhatsApp">
-    <i class="fab fa-whatsapp text-2xl"></i>
-  </a>
+<a href="https://wa.me/61451612742?text=Hello!%20I%20would%20like%20to%20request%20a%20quote%20for%20asbestos%20removal/demolition" 
+   class="fixed bottom-20 lg:bottom-2 right-6 bg-brand-green text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition-colors z-30 animate-bounce-slow"
+   aria-label="Contact us on WhatsApp">
+  <img src="assets/images/social.png" 
+       alt="Contact us on WhatsApp"
+       class="w-7 h-7 object-contain rounded-full">
+</a>
 
   <!-- Back to Top Button -->
   <button id="back-to-top" 
           class="fixed bottom-32 lg:bottom-20 right-6 bg-brand-red text-white p-3 rounded-full shadow-lg hover:bg-red-700 transition-all duration-300 opacity-0 invisible z-30"
           aria-label="Back to top">
-    <i class="fas fa-chevron-up"></i>
+          <img src="assets/images/arrow-up.png" 
+       alt="Contact us on WhatsApp"
+       class="w-5 h-5 object-contain rounded-full">
   </button>
 
   <!-- JavaScript -->

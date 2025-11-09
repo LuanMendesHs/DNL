@@ -9,6 +9,7 @@
   <meta name="robots" content="index,follow" />
   <meta name="theme-color" content="#e10600" />
   <link rel="canonical" href="https://breathesafe.com.au/" />
+  
 
   <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_icon.png" />
@@ -130,7 +131,14 @@
   </script>
   
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/assets/css/all.min.css">
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+  />
+
   
   <!-- Custom Styles -->
   <style>
@@ -282,9 +290,11 @@
         <div class="space-y-8">
           <div class="animate-fade-in">
             <h1 class="text-4xl lg:text-6xl font-bold leading-tight">
-              <span class="text-brand-red">Professional Demolition</span><br>
-              <span class="text-white">&</span><br>
-              <span class="text-white">Asbestos Removal</span>
+              <div class="text-center">
+                <span class="text-brand-red">Professional Demolition</span><br>
+                <span class="text-white">&</span><br>
+                <span class="text-white">Asbestos Removal</span>
+              </div>
             </h1>
             <p class="text-xl text-gray-300 mt-6 leading-relaxed">
               Licensed specialists with <span class="text-brand-red font-bold">over 500 completed projects</span>. 
@@ -293,14 +303,16 @@
           </div>
           
           <!-- CTA Buttons -->
-          <div class="flex flex-col sm:flex-row gap-4 animate-slide-up">
-            <a href="quote.html" class="bg-brand-red text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-red-700 transition-all duration-300 shadow-glow hover:shadow-glow-orange transform hover:scale-105 text-center">
-              <i class="fas fa-calculator mr-2"></i>Free Quote
-            </a>
-            <a href="tel:+61451612742" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-brand-black transition-all duration-300 text-center">
-              <i class="fas fa-phone mr-2"></i>(61) 451 612 742
-            </a>
-          </div>
+<div class="flex flex-col sm:flex-row gap-4 animate-slide-up justify-center items-center">
+  <a href="quote.html" class="bg-brand-red text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-red-700 transition-all duration-300 shadow-glow hover:shadow-glow-orange transform hover:scale-105 text-center">
+    <i class="fas fa-calculator mr-2"></i>Free Quote
+  </a>
+  
+  <a href="tel:+61451612742" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-brand-black transition-all duration-300 text-center">
+    <i class="fas fa-phone mr-2"></i>(61) 451 612 742
+  </a>
+</div>
+
           
           <!-- Stats -->
           <div class="grid grid-cols-3 gap-6 text-center">
@@ -416,7 +428,7 @@
             <i class="fas fa-shield-alt text-white text-2xl"></i>
           </div>
           <div class="text-left">
-            <h3 class="text-xl font-bold text-white">$20M Insured</h3>
+            <h3 class="text-xl font-bold text-white">Fully Insured</h3>
             <p class="text-gray-400">Public Liability Coverage</p>
           </div>
         </div>
@@ -723,17 +735,21 @@
   </div>
 
   <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/61451612742?text=Hello!%20I%20would%20like%20to%20request%20a%20quote%20for%20asbestos%20removal/demolition" 
-     class="fixed bottom-20 lg:bottom-6 right-6 bg-brand-green text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-30 animate-bounce-slow"
-     aria-label="Contact us on WhatsApp">
-    <i class="fab fa-whatsapp text-2xl"></i>
-  </a>
+<a href="https://wa.me/61451612742?text=Hello!%20I%20would%20like%20to%20request%20a%20quote%20for%20asbestos%20removal/demolition" 
+   class="fixed bottom-20 lg:bottom-2 right-6 bg-brand-green text-white p-2 rounded-full shadow-lg hover:bg-green-600 transition-colors z-30 animate-bounce-slow"
+   aria-label="Contact us on WhatsApp">
+  <img src="assets/images/social.png" 
+       alt="Contact us on WhatsApp"
+       class="w-7 h-7 object-contain rounded-full">
+</a>
 
   <!-- Back to Top Button -->
   <button id="back-to-top" 
-          class="fixed bottom-32 lg:bottom-20 right-6 bg-brand-red text-white p-3 rounded-full shadow-lg hover:bg-red-700 transition-all duration-300 opacity-0 invisible z-30"
+          class="fixed bottom-30 lg:bottom-20 right-6 bg-brand-red text-white p-3 rounded-full shadow-lg hover:bg-red-700 transition-all duration-300 opacity-0 invisible z-30"
           aria-label="Back to top">
-    <i class="fas fa-chevron-up"></i>
+      <img src="assets/images/arrow-up.png" 
+       alt="Contact us on WhatsApp"
+       class="w-5 h-5 object-contain rounded-full">
   </button>
 
   <!-- Chatbot -->
